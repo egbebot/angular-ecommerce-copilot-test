@@ -1,0 +1,10 @@
+/* filepath: /workspaces/angular-ecommerce-copilot-test/frontend/src/app/shared/navbar/navbar.component.scss */
+nav {
+  a {
+    transition: color 0.2s;
+  }
+
+  a:hover {
+    color: #d1d5db; /* Tailwind's gray-300 */
+  }
+}

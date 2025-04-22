@@ -1,0 +1,10 @@
+/* filepath: /workspaces/angular-ecommerce-copilot-test/frontend/src/app/shared/footer/footer.component.scss */
+footer {
+  a {
+    transition: color 0.2s;
+  }
+
+  a:hover {
+    color: #93c5fd; /* Tailwind's blue-300 */
+  }
+}
