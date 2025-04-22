@@ -16,12 +16,19 @@
 		"vscode": {
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"ms-azuretools.vscode-docker",
+				"docker.docker",
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
 			],
 			"settings": {
 				"github.copilot.chat.codeGeneration.instructions": [
 					{
 						"text": "This dev container includes the TypeScript compiler (`tsc`) pre-installed and available on the `PATH` for TypeScript development."
+					},
+					{
+						"text": "The project structure includes a backend and frontend directory for an ecommerce website. The backend contains controllers, models, routes, middlewares, and configuration files. The frontend contains components, modules, services, models, assets, and environment files."
 					}
 				]
 			}
@@ -32,7 +39,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install",
+	// "postCreateCommand": "npm install",
 
 	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node"
